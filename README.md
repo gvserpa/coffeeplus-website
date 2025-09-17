@@ -1,17 +1,64 @@
-<<<<<<< HEAD
-# React + Vite
+# CoffeePLUS Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Live Site](https://coffeeplus-website.vercel.app/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Description
 
-## Expanding the ESLint configuration
+This project is a **CoffeePLUS landing page**, created with a focus on **design and CSS organization**. The main goal was to **practice layout, animations, and component structure** without implementing backend functionality or real button interactions.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# coffeeplus-website
-Landingpage CoffeePLUS - Website
->>>>>>> ed2ef2cc5ccd1e35349086cfb4292db7e406c32e
+The site features:
+
+- Well-structured sections with titles, images, and cards.  
+- Buttons with hover animations to practice CSS effects.  
+- Highlighted cards and elements to reinforce visual hierarchy.  
+- Experiments with responsiveness for different screen sizes.
+
+> ⚠️ Note: The buttons and forms are **visual only** and do not have active functionality.
+
+---
+
+## Technologies Used
+
+- **HTML5** – Website structure  
+- **CSS3** – Styling, animations, and responsive layout  
+- **React** – Component organization  
+- **Vercel** – Site deployment  
+
+---
+
+
+---
+
+## Implemented Features
+
+- **Complete landing page** with Header, Main, Sections, and Footer.  
+- **Animated buttons** (hover and transform) to practice CSS effects.  
+- **Cards and images** organized with flex and grid layouts.  
+- **Partial responsiveness**, adjusting elements for smaller screens.
+
+---
+
+## Next Improvements
+
+- Enhance **responsiveness for very small screens**.  
+- Adjust the positioning of cards and text for **tablet and mobile**.  
+- Implement real functionality for buttons and forms, if desired.  
+
+---
+
+## Deployment
+
+The site is hosted on Vercel and can be accessed at:  
+
+[CoffeePLUS Live](https://coffeeplus-website.vercel.app/)
+
+---
+
+## Author
+
+**Gustavo Vieira Serpa**  
+Practicing React, CSS, and front-end project organization.
+
+
