@@ -1,0 +1,170 @@
+.our-story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.story-title {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.story-title p {
+  color: rgb(160, 110, 40);
+}
+
+.title {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.title h2, .products-desc h2 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.divider {
+  border: 1px solid rgb(160, 110, 40);
+  border-right: none;
+  border-left: none;
+  width: 200px;
+  border-bottom: none;
+}
+
+.story-description, .check-products {
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.check-products {
+    margin-bottom: 100px;
+}
+
+.story-description img, .check-products img {
+    width: 35vw;
+}
+
+.story-description p, .check-products p {
+    width: 35vw;
+    font-size: 1.18rem;
+}
+
+.story-description button, .check-products button {
+    padding: 12px 25px;
+    width: 200px;
+    border-radius: 10px;
+      margin-top: 15px;
+  background-color:rgb(160, 110, 40);
+  border: none;
+  color: white;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.story-description button:hover, .check-products button:hover {
+  transform: translateY(-10px);
+}
+
+
+.products-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.products-photo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Responsividade Our Story */
+
+/* Tablet grande */
+@media (max-width: 1024px) {
+  .story-description, .check-products {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .story-description img, .check-products img {
+    width: 60vw;
+  }
+
+  .story-description p, .check-products p {
+    width: 60vw;
+    font-size: 1rem;
+  }
+
+  .title {
+    gap: 20px;
+  }
+
+  .title h2, .products-desc h2 {
+    font-size: 1.7rem;
+  }
+
+  .divider {
+    width: 150px;
+  }
+}
+
+/* Tablet pequeno / celular grande */
+@media (max-width: 768px) {
+  .story-description img, .check-products img {
+    width: 80vw;
+  }
+
+  .story-description p, .check-products p {
+    width: 80vw;
+    font-size: 0.95rem;
+  }
+
+  .title h2, .products-desc h2 {
+    font-size: 1.5rem;
+  }
+
+  .divider {
+    width: 120px;
+  }
+
+  .story-description, .check-products {
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Celular pequeno */
+@media (max-width: 480px) {
+  .story-description img, .check-products img {
+    width: 90vw;
+  }
+
+  .story-description p, .check-products p {
+    width: 90vw;
+    font-size: 0.9rem;
+  }
+
+  .title h2, .products-desc h2 {
+    font-size: 1.3rem;
+  }
+
+  .divider {
+    width: 100px;
+  }
+
+  .story-description, .check-products {
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

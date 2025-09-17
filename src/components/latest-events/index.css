@@ -1,0 +1,184 @@
+.LatestEvents {
+  display: flex;
+  flex-direction: column;
+}
+
+.events-title {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.events-title h2 {
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    width: 100%;
+}
+
+.box-1 {
+  background-image: url("../../assets/1.png");
+  background-size: cover;
+  height: 700px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+}
+
+.box-2 {
+  background-image: url("../../assets/2.png");
+  height: 700px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+}
+
+.box-3 {
+  background-image: url("../../assets/3.png");
+  height: 700px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+}
+
+.section-card {
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(214, 206, 185, 0.75);
+    height: 100px;
+}
+
+.section-card h4 {
+    font-weight: 500;
+}
+
+.section-card-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-card-2 p {
+    font-weight: 300;
+}
+
+.section-card-2 a {
+    border: 1px solid rgb(160, 110, 40);
+    padding: 2px 5px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.section-card-2 a:hover {
+  transform: translatex(-1px);
+  background-color: coral;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+
+/* Responsividade Latest Events */
+
+/* Tablet grande */
+@media (max-width: 1024px) {
+  .card {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .box-1,
+  .box-2,
+  .box-3 {
+    background-size: cover;
+    height: 500px;
+  }
+
+  .events-title h2 {
+    font-size: 2.5rem;
+  }
+
+  .section-card {
+    height: 80px;
+  }
+}
+
+/* Tablet pequeno / celular grande */
+@media (max-width: 768px) {
+  .box-1,
+  .box-2,
+  .box-3 {
+    height: 400px;
+    padding-bottom: 30px;
+  }
+
+  .events-title h2 {
+    font-size: 2rem;
+  }
+
+  .section-card {
+    height: 70px;
+  }
+
+  .section-card-2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .section-card-2 a {
+    width: fit-content;
+  }
+}
+
+/* Celular pequeno */
+@media (max-width: 480px) {
+  .events-title h2 {
+    margin-top: 100px;
+  }
+
+  .box-1,
+  .box-2,
+  .box-3 {
+    height: 300px;
+    padding-bottom: 20px;
+    background-size: cover;
+  }
+
+  .events-title h2 {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+  }
+
+  .section-card {
+    height: 60px;
+    padding: 10px;
+  }
+
+  .section-card-2 {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .section-card-2 p {
+    font-size: 0.9rem;
+  }
+
+  .section-card-2 a {
+    font-size: 0.85rem;
+    padding: 2px 4px;
+  }
+}
